@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio</title>
+
+    <!-- box icons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- header design -->
+    <header class="header">
+      <a href="#" class="logo">Portfolio.</a>
+
+      <i class="bx bx-menu" id="menu-icon"></i>
+
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <!-- home section design -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hello, It's Me</h3>
+        <h1>Edvan Lazaro</h1>
+        <h3>And I'm a <span class="multiple-text"></span></h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, vel
+          magnam! Voluptatum ex eos rerum nisi eveniet.
+        </p>
+        <div class="social-media">
+          <a href="#"><i class="bx bxl-facebook-circle"></i></a>
+          <a href="#"><i class="bx bxl-twitter"></i></a>
+          <a href="#"><i class="bx bxl-instagram"></i></a>
+          <a href="#"><i class="bx bxl-linkedin"></i></a>
+        </div>
+        <a href="#" class="btn">Download CV</a>
+      </div>
+
+      <div class="home-img">
+        <img src="Assets/Capturar2.JPG" alt="" />
+      </div>
+    </section>
+
+    <!-- about section design -->
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="Assets/Capturar3.JPG" alt="about me image" />
+      </div>
+
+      <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3>FullStack Developer!</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus quod soluta culpa debitis exercitationem velit ullam eos saepe quo! Reiciendis delectus dignissimos perferendis voluptate natus iure, autem ullam nam architecto.</p>
+        <a href="#" class="btn">Read More</a>
+      </div>
+    </section>
+
+    <!-- services section design -->
+    <section class="services" id="services">
+      <h2 class="heading">Our <span>Services</span></h2>
+
+      <div class="services-container">
+        <div class="services-box">
+          <i class='bx bx-code-alt' ></i>
+          <h3>FrontEnd Development</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto minima voluptatum exercitationem rerum hic? Inventore nobis autem reprehenderit delectus accusamus soluta ipsum sit officiis, veniam, a, esse magni dignissimos quisquam!</p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+
+        <div class="services-box">
+          <i class='bx bx-code-alt' ></i>
+          <h3>BackEnd Development</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto minima voluptatum exercitationem rerum hic? Inventore nobis autem reprehenderit delectus accusamus soluta ipsum sit officiis, veniam, a, esse magni dignissimos quisquam!</p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+
+        <div class="services-box">
+          <i class='bx bx-bar-chart-alt-2'></i>
+          <h3>Digital Marketing</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto minima voluptatum exercitationem rerum hic? Inventore nobis autem reprehenderit delectus accusamus soluta ipsum sit officiis, veniam, a, esse magni dignissimos quisquam!</p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio section design -->
+    <section class="portfolio" id="portfolio">
+      <h2 class="heading">Latest <span>Project</span></h2>
+
+      <div class="portfolio-container">
+        <div class="portfolio-box">
+          <img src="Assets/portfolio/dsmeta1.JPG" alt="DS Meta">
+          <div class="portfolio-layer">
+            <h4>Web App</h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod, ducimus?</p>
+            <a href="#"><i class='bx bx-link-external'></i></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="Assets/portfolio/Home.jpg" alt="DS Meta">
+          <div class="portfolio-layer">
+            <h4>Web App</h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod, ducimus?</p>
+            <a href="#"><i class='bx bx-link-external'></i></a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="Assets/portfolio/FoodPeek.jpg" alt="DS Meta">
+          <div class="portfolio-layer">
+            <h4>Web App</h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod, ducimus?</p>
+            <a href="#"><i class='bx bx-link-external'></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact section design -->
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me!</span></h2>
+
+      <form action="#">
+        <div class="input-box">
+          <input type="text" placeholder="Full Name">
+          <input type="email" placeholder="E-mail Address">
+        </div>
+        <div class="input-box">
+          <input type="number" placeholder="Mobile Number">
+          <input type="text" placeholder="E-mail Subject">
+        </div>
+        <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+        <input type="submit" value="Send Message" class="btn">
+      </form>
+    </section>
+
+    <!-- footer design -->
+    <footer class="footer">
+      <div class="footer-text">
+        <p>Copyright &copy; 2023 by CodeHal | All Rights Reserved</p>
+      </div>
+
+      <div class="footer-iconTop">
+        <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+      </div>
+    </footer>
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- typed js -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <!-- custom js -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
